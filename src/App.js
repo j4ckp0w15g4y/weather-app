@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 
+let apiKey = process.env.REACT_APP_API_KEY
+
+
+
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       
     }
